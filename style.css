@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(44, 44, 44);
+    margin: auto;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#header{
+    margin: auto;
+    text-align: center;
+    
+}
+.links{
+    display: inline-block;
+}
+.links a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    margin: 15px;
+   text-align: center;
+    transition: 0.5s;
+   
+}
+.links a:hover{
+    transition:ease-in;
+     border-top: 4px solid #f6003c ;
+     color: #f6003c;
+}
+#content{
+    margin: auto;
+    background-color:rgb(34, 33, 33) ;
+    text-align: center;
+    width:max-content;
+    position: relative;
+}
+#car{
+    width: 1200px;
+    height: 600px;
+    position:relative;
+}
+.FK{
+    width: 600PX;
+}
+
+.Products{
+    display: inline-block;
+    margin: 25px;;
+}
+
+.Products a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+}
+.Products a:hover{
+    transition:ease-in;
+    color: #f6003c;
+}
+#about{
+    position: relative;
+    bottom: 60px;
+    display: inline-block;
+    width: 500px;
+    margin: 50px;
+    gap: 0;
+}
+#about h1{
+    text-align: center;
+}
+#about p{
+    font-size: 30px; ;
+    text-align: left;
+}
+#sam{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+
+
